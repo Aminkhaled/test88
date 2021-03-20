@@ -1,0 +1,79 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/empty.png") no-repeat fixed ;
+    background-size: cover;
+    height: 90vh;
+    z-index: 1;
+}
+
+/*
+============
+Sections
+============
+
+*/
+#sections-empty{
+    padding: 100px 0;
+    text-align: left;
+}
+
+#sections-empty .section-back{
+
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+#sections-empty .section-back a{
+
+    width: 100%;
+    text-align: center;
+    padding: 15px 40px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+/*
+================
+Media Query for Info
+================
+*/
+@media only screen and (max-width: 760px){
+    #sections .section-title{
+        text-align: center;
+        margin-left: 0;
+    }
+    #sections .hotel-info {
+        /* margin-right: 200px; */
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    #sections .section-title{
+        text-align: center;
+        margin-left: 0;
+    }
+    #sections .hotel-info {
+        /* margin-right: 200px; */
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    #sections .section-back {
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

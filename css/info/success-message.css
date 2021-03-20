@@ -1,0 +1,93 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/registeration-success-message.png") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    height: 50vh;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+/*
+===========
+ Form
+===========
+*/
+#Congratulations{
+    padding: 50px 0;
+    text-align: center;
+}
+#Congratulations .form-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#Congratulations .form-title h2 a{
+    font-size: 1.5em;
+    color: white;
+}
+#Congratulations form .form-group{
+    margin-top: 30px;
+}
+
+
+#Congratulations form .form-group input{
+    padding: 1em 20em;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+#Congratulations .submit{
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 45px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: background-color 1s;
+    text-decoration: none;
+    font-weight: 700;
+}
+#Congratulations .submit:hover{
+    background-color: rgba(211,211,211,0.5);
+
+
+}
+#Congratulations .congratulation-text{
+    width: 100%;
+    flex: 100%;
+    -ms-flex: 100%;
+}
+#Congratulations .congratulation-text p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*
+#bada55
+*/
+#Congratulations .congratulation-text p:last-child span{
+    color:#bada55 ;
+    font-weight: 700;
+    font-size: 20px;
+}

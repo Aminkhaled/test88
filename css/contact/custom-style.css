@@ -1,0 +1,135 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/empty.png") no-repeat fixed ;
+    background-size: cover;
+    height: 90vh;
+    z-index: 1;
+}
+
+#form .form-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+#form .form-title h2{
+    width: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    margin-bottom: 20px;
+}
+#form .form-title h2 a{
+    color: black;
+}
+#form .form-title p{
+    width: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: underline;
+}
+#form form .form-group select{
+    padding: 1em 4em;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+}
+#form form .form-group textarea{
+    border: none;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+}
+#form form .form-group [type="number"]:-moz-placeholder{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: white;
+
+}
+#form form .form-group [type="number"]::-moz-placeholder{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: white;
+
+}
+#form form .form-group [type="number"]::-webkit-input-placeholder{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: white;
+
+}
+#form form .form-group [type="number"]:-ms-input-placeholder{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: white;
+}
+#form form .form-group [type="text"]:-moz-placeholder{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: white;
+
+}
+#form form .form-group [type="text"]::-moz-placeholder{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: white;
+
+}
+#form form .form-group [type="text"]::-webkit-input-placeholder{
+    font-weight: 500;
+    font-size: 0.8em;
+    color: white;
+
+}
+#form form .form-group [type="text"]:-ms-input-placeholder{
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+
+}
+
+#form form .form-group [type="email"]:-moz-placeholder{
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+
+}
+#form form .form-group [type="email"]::-moz-placeholder{
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+
+}
+#form form .form-group [type="email"]::-webkit-input-placeholder{
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+
+}
+#form form .form-group [type="email"]:-ms-input-placeholder{
+    font-weight: 500;
+    font-size: 1em;
+    color: white;
+}
+/*
+padding: 1em 21em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.7);
+*/

@@ -1,0 +1,158 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/info.png") no-repeat center center fixed ;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    height: 90vh;
+    z-index: 1;
+}
+
+/*
+============
+Sections
+============
+
+*/
+#sections{
+    padding: 100px 0;
+    text-align: left;
+}
+#sections .section-title h2 a{
+    font-size: 1.8em;
+    color: white;
+}
+#sections .section-title{
+
+    width: 100%;
+    text-align: left;
+    margin-left: 20%;
+
+}
+#sections .section-back{
+
+    width: 60%;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+#sections .section-back a {
+
+    width: 100%;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0.5);
+    transition: background-color 0.3s;
+}
+#sections .section-back a:hover{
+    background-color: rgba(211,211,211,0.5);
+}
+
+#sections .hotel-info{
+    margin-right: 200px;
+    margin-top: 20px;
+}
+#sections .hotel-info h3{
+    margin-top: 5px;
+    font-size: 1.5em;
+    color: white;
+}
+#sections .hotel-info h3 span{
+    color: #bada55;
+    font-size: 0.9em;
+}
+/*
+================
+Media Query for Info
+================
+*/
+@media  screen and (min-width:770px) and (max-width: 850px){
+    #sections .hotel-info {
+         margin-right: 0px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+}
+@media only screen and (max-width: 760px){
+    #sections .section-back{
+
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 70px;
+
+    }
+    #sections .section-title{
+        text-align: left;
+        margin-left: 70px;
+    }
+
+
+    #sections .hotel-info{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #sections .hotel-info h3 {
+        margin-top: 5px;
+        font-size: 1.5em;
+        color: white;
+        margin-left: 70px;
+    }
+}
+@media only screen and (max-width: 480px){
+    #sections .section-title {
+        text-align: left;
+        margin-left: none;
+    }
+    #sections .hotel-info {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #sections .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    #sections .hotel-info {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 320px){
+    #sections .section-title {
+        text-align: left;
+        margin-left: none;
+    }
+    #sections .hotel-info {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #sections .section-back {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    #sections .hotel-info {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

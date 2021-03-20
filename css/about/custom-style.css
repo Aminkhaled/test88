@@ -1,0 +1,140 @@
+body{
+    background:url("../../img/about-us-bg.png") no-repeat fixed ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 50vh;
+    z-index: 1;
+}
+
+/*
+============
+Sections
+============
+
+*/
+#sections{
+    padding: 100px 0;
+    text-align: left;
+}
+#sections .section-title h2 a{
+    font-size: 1.8em;
+    color: white;
+}
+#sections .section-title{
+
+    /* display: block; */
+    width: 100%;
+    text-align: left;
+    margin-left: 285px;
+
+}
+.section-row {
+    display: flex;
+    margin-top: 30px;
+    justify-items: center;
+    width: 60%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.section-field{
+    flex: 33%;
+    -ms-flex: 33%;
+
+}
+.section-field h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 50px 10px;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid black;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: background-color 1s ease-in-out;
+}
+.section-field a:hover h2{
+    background-color: rgba(211,211,211,0.5);
+}
+.section-field a{
+  text-decoration: none;
+}
+/*Footer
+C:\Users\sales04\Downloads\directeg-main\directeg-main\css\about\custom-style.css
+*/
+footer{
+    background-color: #555555;
+    padding: 50px 0;
+    z-index: 3;
+}
+
+/*
+================
+Media Query for About us
+================
+*/
+
+@media  screen and (min-width:770px) and (max-width: 850px){
+
+    .section-field h2{
+        height: 90%;
+    }
+    #sections .section-title {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-left: 170px;
+    }
+
+}
+@media only screen and (max-width: 760px){
+    #sections .section-title {
+        /* display: block; */
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .section-field{
+        flex: 100%;
+        -ms-flex: 100%;
+
+    }
+    .section-field h2{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px 10px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid black;
+        color: white;
+        height: 90%;
+        border-radius: 10px;
+        transition: background-color 1s ease-in-out;
+    }
+    .section-row {
+        display: flex;
+        margin-top: 30px;
+        justify-items: center;
+        width: 90%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 480px){
+    .section-field{
+        flex: 100%;
+        -ms-flex: 100%;
+
+    }
+    .section-row {
+        display: flex;
+        margin-top: 30px;
+        justify-items: center;
+        width: 90%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}

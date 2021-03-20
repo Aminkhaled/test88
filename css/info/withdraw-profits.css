@@ -1,0 +1,150 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/profit-bg.png") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    height: 50vh;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.options h3{
+    margin-bottom: 25px;
+}
+.options h3 a{
+    color: white;
+    font-size: 18px;
+}
+
+tr th{
+    font-size: 16px;
+}
+#sections-hotel .hotel-info {
+    width: 100%;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+.mount-tip h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.gold-bank{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 29px; */
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.gold-info li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.gold-info li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.gold-info li a span{
+    color: green;
+}
+.img-gold img{
+    width: 130px;
+}
+
+#form{
+    padding: 15px 0 !important;
+}
+
+/*
+================
+Media Query for Info
+================
+*/
+
+@media  screen and (min-width:870px) and (max-width: 1500px){
+    .gold-info{
+        margin-right: 80px;
+    }
+}
+@media  screen and (min-width:770px) and (max-width: 850px){
+    #sections-hotel .hotel-info {
+        width: 100%;
+        margin-left: 210px;
+        margin-top: 20px;
+    }
+    #sections-hotel .section-back {
+        /* width: 100%; */
+        width: 50%;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 760px){
+    #sections-hotel .section-title{
+        text-align: center;
+        margin-left: 0;
+    }
+    #sections-hotel .hotel-info {
+        /* margin-right: 200px; */
+        margin-top: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+    #sections-hotel .hotel-info{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .options select{
+        text-indent: 0;
+    }
+    #sections-hotel .section-back {
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    #sections-hotel .section-title{
+        text-align: center;
+        margin-left: 0;
+    }
+    #sections-hotel .hotel-info {
+        /* margin-right: 200px; */
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    #sections-hotel .section-back {
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    #sections-hotel .hotel-info{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .options select{
+        text-indent: 0;
+    }
+    #sections-hotel .section-back {
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+

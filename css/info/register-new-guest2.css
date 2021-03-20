@@ -1,0 +1,417 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+body{
+    background:url("../../img/register-guest2.png") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 50vh;
+    z-index: 1;
+    overflow-x: hidden;
+}
+#form .form-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 300px;
+     margin-bottom: 20px;
+}
+#form .form-title p{
+
+    -ms-flex: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+#form .form-title p span{
+    color:#bada55 ;
+    font-weight: 700;
+    font-size: 20px;
+}
+/*overwrite for select*/
+
+/*
+Select Options and form
+*/
+.form-group{
+    text-align: -webkit-center;
+}
+.options{
+    width: 74%;
+    text-align: center;
+}
+.options select{
+    width: inherit;
+    text-align: center;
+    text-align-last: auto;
+    padding: 12px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    font-size: 15px;
+    text-indent: 35%;
+
+}
+.options select:focus{
+    background-color: white;
+    color: black;
+}
+.options select option{
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*checkbox*/
+
+#form form .checkbox-group{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+}
+#form form .checkbox-group .checkbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+#form form .checkbox-group .checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+}
+#form form .checkbox-group .checkbox span{
+    font-size: 15px;
+    color: white;
+}
+
+.checkbox a {
+    color: white;
+    font-size: inherit;
+
+}
+#form form .checkbox-confirm{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+#form form .checkbox-confirm .checkbox{
+
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 360px;
+}
+#form form .checkbox-confirm .checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+}
+#form form .checkbox-confirm .checkbox span{
+    font-size: 14px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+@media  screen and (min-width:770px) and (max-width: 850px){
+
+    #form .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    #form form .form-group input {
+        padding: 1em 1em;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        width: 85%;
+        border: none;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .options {
+        width: 92%;
+        text-align: center;
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 170px;
+    }
+}
+@media only screen and (max-width: 760px){
+    #wix .intro {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #wix .intro a{
+        margin-left: 0;
+    }
+    /* Nav Query*/
+    .nav-top .logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .nav-top .second-logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+
+    }
+    #nav .second-logo img{
+        display: unset;
+    }
+    .nav-top .text-second-logo{
+        width: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+    nav.nav-bottom ul {
+
+        text-align: center;
+
+    }
+    nav.nav-bottom ul li {
+        list-style: none;
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+    }
+    /* Form query*/
+    #form .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    #form form .form-group input{
+        padding: 1em 1em;
+    }
+    /*
+    Footer Query
+    */
+    footer {
+        background-color: #555555;
+        padding: 50px 0;
+        z-index: 3;
+    }
+    footer .copyright {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+        z-index: 100;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: -480px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.5);
+        padding: 15px 15px;
+        border-radius: 10px;
+
+        cursor: pointer;
+        display: block;
+    }
+    .nav-bottom{
+        display: none;
+    }
+    .checkbox-confirm{
+        margin-bottom: 30px;
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 130px;
+    }
+    .options {
+        width: 95%;
+        /* text-align: center; */
+    }
+
+}
+@media only screen and (max-width: 480px){
+    #form form .form-group input{
+        padding: 1em 5em;
+    }
+    #form .form-title h2 a {
+        font-size: 1.2em;
+        color: white;
+    }
+    .options {
+        width: 95%;
+        /* text-align: center; */
+    }
+
+
+    footer .copyright h3 a {
+        color: white;
+        font-size: 0.7em;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: -480px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.5);
+        padding: 15px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+    }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+        z-index: 100;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .nav-bottom{
+        display: none;
+    }
+    #nav .second-logo img{
+        display: unset;
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 73px;
+    }
+    .options select{
+        width: inherit;
+        text-align: center;
+        padding: 12px;
+        color: white;
+        background: rgba(0,0,0,0.5);
+        border: none;
+        font-size: 12px;
+        text-indent: 35%;
+
+    }
+
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 60px;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    footer .copyright h3 a {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 70%;
+        left: 0;
+        height: 100%;
+        top: -40px;
+        z-index: 100;
+    }
+    nav.nav-bottom ul li{
+        margin-bottom: 30px;
+        transition: background-color 1s;
+    }
+    nav.nav-bottom ul li:hover{
+        padding: 10px;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .nav-bottom{
+        display: none;
+    }
+
+    .menu-mobile .icon-span{
+        position: absolute;
+        top: -480px;
+        right: 25px;
+        /* width: 60px; */
+        background-color: rgba(0,0,0,0.5);
+        padding: 15px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+    }
+    #nav .second-logo img{
+        display: unset;
+    }
+    .options select{
+        width: inherit;
+        text-align: center;
+        padding: 12px;
+        color: white;
+        background: rgba(0,0,0,0.5);
+        border: none;
+        font-size: 15px;
+        text-indent: 35%;
+
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 73px;
+    }
+    #form form .checkbox-confirm .checkbox {
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 70px;
+    }
+}
+.active{
+    display: block;
+    margin-top: 50px;
+}
+
